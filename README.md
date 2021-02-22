@@ -1,4 +1,8 @@
 # multi-objective-artificial-bee-colony-algorithm
+This project introduces a multiobjective artificial bee colony algorithm based on decomposition.
+MOEADABC.m is the algorithm.
+
+Here are the parameters:   
 population size  N  
 number of objectives  M  
 number of variables  D  
@@ -16,5 +20,4 @@ runtime  runtime
 number of saved populations  save  
 set of saved populations  result  
 true Pareto front  PF  
-parameters of functions specified by users  parameter  
-function invoked after each generation  outputFcn  
+
