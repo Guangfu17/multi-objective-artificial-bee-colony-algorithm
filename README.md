@@ -1,7 +1,7 @@
 # multi-objective-artificial-bee-colony-algorithm
 This project introduces a multiobjective artificial bee colony algorithm based on decomposition for solving normalized and scaled MOPs.
 
-MOEADABC.m is the algorithm. ZDT1.m is an example of problem.
+MOEADABC.m is the proposed algorithm. ZDT1.m is an example of problem.
 
 Here are the parameters:   
 population size  `N`  
