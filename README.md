@@ -2,23 +2,18 @@
 This project introduces a multiobjective artificial bee colony algorithm based on decomposition for solving normalized and scaled MOPs.
 
 MOEADABC.m is the proposed algorithm. ZDT1.m is an example of problem.
+Run the algorithm:  
+main('-algorithm',Value,'-problem',Value,...) runs one algorithm on a problem with acceptable parameters.
+For example: main('-algorithm',@MOEADABC,'-problem',ZDT1,'-N',200,'-M',2)
 
-Here are the parameters:   
-population size  `N`  
-number of objectives  `M`  
-number of variables  `D`  
-lower bound of each decision variable  `lower`  
-upper bound of each decision variable  `upper`  
-algorithm function  `algorithm`  
-problem function  `problem`  
-encoding of the problem  `encoding`  
-number of evaluated individuals  `evaluated`  
-maximum number of evaluations  `evaluation`  
-current generation  `gen`  
-maximum generation  `maxgen`  
-run number  `run`  
-runtime  `runtime`  
-number of saved populations  `save`  
-set of saved populations  `result`  
-true Pareto front  `PF`  
+All the acceptable parameters:
+%   '-N'            <positive integer>  population size
+%   '-M'            <positive integer>  number of objectives
+%   '-D'            <positive integer>  number of variables
+%	  '-algorithm'    <function handle>   algorithm function
+%	  '-problem'      <function handle>   problem function
+%	  '-evaluation'   <positive integer>  maximum number of evaluations
+%   '-run'          <positive integer>  run number
+%   '-save'         <integer>           number of saved populations
+%   '-outputFcn'	  <function handle>   function invoked after each generation
 
